@@ -48,7 +48,7 @@ public class BlackJackApp {
 				System.out.println(player.getHand());
 				System.out.println();
 				if (player.getHand().getHandValue() > 21) {
-					System.out.println("Over 21 you LOOSE! Dealer Wins");
+					System.out.println("Over 21 you LOSE! Dealer Wins");
 					System.exit(0);
 					if (player.getHand().getHandValue() == 21) {
 						System.out.println("BlackJack Player wins");
